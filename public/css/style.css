@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.form-container,
+.table-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #6a6a6a;
+    border-radius: 6px;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    background-color: #5c99d6;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+.form-container p a {
+    color: #5c99d6;
+    text-decoration: none;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.styled-table thead tr {
+    background-color: #5c99d6;
+    color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+    text-align: left;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.styled-table th a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    padding-right: 10px;
+}
+
+.styled-table th a:hover {
+    text-decoration: underline;
+}
+
+.table-header,
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table-header a.add-user-button,
+.form-header a.view-user-button {
+    text-decoration: none;
+    background-color: #5c99d6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.table-container a {
+    margin-right: 5px;
+    color: #5c99d6;
+    text-decoration: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    gap: 15px;
+}
+
+.pagination .prev,
+.pagination .next {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #5c99d6;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination .page-info {
+    padding: 8px 12px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
